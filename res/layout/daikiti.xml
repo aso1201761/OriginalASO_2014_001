@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
+        android:contentDescription="@string/komei"
         android:src="@drawable/komei" />
 
     <TextView
@@ -19,7 +20,7 @@
         android:layout_above="@+id/imageView1"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="28dp"
-        android:text="大吉です"
+        android:text="@string/daikiti"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -29,7 +30,7 @@
         android:layout_above="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="28dp"
-        android:text="あなたの今日の運勢は"
+        android:text="@string/unsei"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -39,7 +40,7 @@
         android:layout_above="@+id/textView3"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="31dp"
-        android:text="Large Text"
+        android:text="@string/largetext"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

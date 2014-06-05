@@ -4,5 +4,20 @@
     <string name="app_name">OriginalASO_2014_001</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="unsei">あなたの今日の運勢は</string>
+    <string name="kyou">凶です</string>
+    <string name="daikyou">大凶です</string>
+    <string name="daikiti">大吉です</string>
+    <string name="chukiti">中吉です</string>
+    <string name="largetext">Large Text</string>
+    <string name="kuji">ガチャくじ</string>
+    <string name="nyuryoku">名前を入力してください</string>
+    <string name="ok">OK</string>
+    <string name="gatyadora">ガチャドラ</string>
+    <string name="gofes">ゴーレムふぇす</string>
+    <string name="seiren">セイレーン</string>
+    <string name="golem">ゴーレム</string>
+    <string name="komei">諸葛亮孔明</string>
+    <string name="sonken">孫権</string>
 
 </resources>

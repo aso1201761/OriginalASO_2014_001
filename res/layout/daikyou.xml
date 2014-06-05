@@ -12,6 +12,7 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="37dp"
+        android:contentDescription="@string/golem"
         android:src="@drawable/golem" />
 
     <TextView
@@ -21,7 +22,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp"
-        android:text="Large Text"
+        android:text="@string/largetext"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -31,7 +32,7 @@
         android:layout_below="@+id/name_daikiti"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="42dp"
-        android:text="大凶です"
+        android:text="@string/daikyou"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -41,7 +42,7 @@
         android:layout_below="@+id/name_daikyou"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="あなたの今日の運勢は"
+        android:text="@string/unsei"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
