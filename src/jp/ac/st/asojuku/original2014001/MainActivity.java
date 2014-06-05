@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends Activity implements View.OnClickListener{
 
@@ -27,11 +28,17 @@ public class MainActivity extends Activity implements View.OnClickListener{
 	@Override
 	public void onClick(View v) {
 		// TODO 自動生成されたメソッド・スタブ
+		
 		switch(v.getId()){//どのボタンが押されたか判定
 		case R.id.btnOK://btnOKが押された
-
+			
+			EditText etv = (EditText)findViewById(R.id.edtName);
+			String inputMsg = etv.getText().toString();
+			
 			//インテントのインスタンス生成
 			Intent intent =new Intent(MainActivity.this, ResActivity.class);
+			//エキストラにセット
+			intent.putExtra("name",inputMsg);
 			//次画面のアクティビティ起動
 			startActivity(intent);
 		}

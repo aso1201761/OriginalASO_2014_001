@@ -5,16 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
-        android:text="大凶です"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
@@ -23,5 +13,35 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="37dp"
         android:src="@drawable/golem" />
+
+    <TextView
+        android:id="@+id/name_daikyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_daikiti"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="大凶です"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/name_daikiti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_daikyou"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="あなたの今日の運勢は"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

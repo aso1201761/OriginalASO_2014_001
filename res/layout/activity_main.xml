@@ -21,9 +21,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingBottom="20dp"
         android:paddingLeft="90dp"
-        android:paddingTop="20dp"
         android:text="ガチャくじ"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -34,6 +32,23 @@
         android:paddingLeft="80dp"
         android:scaleType="fitXY"
         android:src="@drawable/gatyadora" />
+
+    <TextView
+        android:id="@+id/name_daikyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="名前を入力してください"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
 
     <Button
         android:id="@+id/btnOK"
